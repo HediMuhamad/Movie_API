@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/manage_api.css" rel="stylesheet" />
+    <title>API Management</title>
+  </head>
+
+  <body>
+    <div class="button-group">
+      <a href="/movie_api/html/new_movie.html"
+        ><button id="addNewMovieBtn">add new movie</button></a
+      >
+      <button id="deleteSelectedMoviesBtn">delete selected movies</button>
+    </div>
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th id="id">id</th>
+          <th id="title">title</th>
+          <th id="description">description</th>
+          <th id="genre">genre</th>
+          <th id="rating">rating</th>
+          <th id="writer">writer</th>
+          <th id="stars">stars</th>
+          <th id="director">director</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+
+  <script
+    type="module"
+    src="../scripts/manage_api.js"
+    type="text/javascript"
+  ></script>
+</html>

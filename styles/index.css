@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+body .image-holder {
+  width: 380px;
+  aspect-ratio: 1;
+  background-image: url("../logo.png");
+  background-position: center;
+}
+
+body .button-group {
+  width: 380px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+body .button-group button {
+  width: 185px;
+  height: 100%;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}

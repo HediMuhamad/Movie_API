@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+body .button-group {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+body .button-group button {
+  height: 100%;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+body .button-group button:hover {
+  background-color: rgb(228, 228, 228) !important;
+}
+
+body table {
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+body table thead tr {
+  background-color: #e4e4e4 !important;
+}
+
+body table thead tr:hover {
+  background-color: #e4e4e4 !important;
+}
+
+body table tr:hover {
+  background-color: #ececec;
+}
+
+body table * {
+  padding: 20px;
+  text-align: left;
+}
+
+body table #id {
+  width: 30px;
+}
+
+body table #title {
+  width: 250px !important;
+}
+
+body table #description {
+  width: 500px !important;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+body table #genre {
+  width: 50px;
+}
